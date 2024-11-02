@@ -1,0 +1,9 @@
+my:
+  db:
+    driver: Mysql
+    pwd: pradhan
+    url: jdbc-mysql
+    user: prakash
+spring:
+  application:
+    name: 07SpringBootProfileExOne

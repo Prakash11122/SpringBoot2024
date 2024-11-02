@@ -1,0 +1,9 @@
+my:
+  db:
+    driver: Oracle
+    pwd: pradhan
+    url: jdbc-oracle
+    user: prakash
+spring:
+  application:
+    name: 08SpringBootProfileYAML-EX

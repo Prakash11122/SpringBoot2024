@@ -1,0 +1,9 @@
+my:
+  db:
+    driver: postgesql
+    pwd: pradhan
+    url: jdbc-postgesql
+    user: prakash
+spring:
+  application:
+    name: 07SpringBootProfileExOne
