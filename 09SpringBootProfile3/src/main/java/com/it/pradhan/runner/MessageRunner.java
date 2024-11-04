@@ -3,7 +3,7 @@ package com.it.pradhan.runner;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class MessageRunner implements CommandLineRunner {
 
 	@Override
