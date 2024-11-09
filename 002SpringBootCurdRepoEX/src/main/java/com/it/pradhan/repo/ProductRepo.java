@@ -6,4 +6,5 @@ import com.it.pradhan.entity.Product;
 
 public interface ProductRepo extends CrudRepository<Product, Integer>{
 
+
 }
