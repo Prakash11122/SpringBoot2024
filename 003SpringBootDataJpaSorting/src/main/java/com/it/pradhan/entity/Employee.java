@@ -9,9 +9,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@Entity
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
 @Table(name="employee")
 public class Employee {
 	

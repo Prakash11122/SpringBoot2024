@@ -4,6 +4,6 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import com.it.pradhan.entity.Employee;
 
-public interface EmployeeRepo extends PagingAndSortingRepository<Employee, Integer>{
+public interface EmployeeRepository extends PagingAndSortingRepository<Employee, Integer> {
 
 }

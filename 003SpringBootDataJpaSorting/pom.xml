@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.it.pradhan</groupId>
-	<artifactId>003SpringBootDataSortingAndPaging</artifactId>
+	<artifactId>003SpringBootDataJpaSorting</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>003SpringBootDataSortingAndPaging</name>
+	<name>003SpringBootDataJpaSorting</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
