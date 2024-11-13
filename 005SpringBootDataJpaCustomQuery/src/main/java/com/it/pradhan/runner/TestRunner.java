@@ -21,7 +21,8 @@ public class TestRunner implements CommandLineRunner {
 				new Book(102, "CORE", "RAGHU", 200.0, "Backend"), new Book(103, "ADV", "ASHOK", 400.0, "Backend"),
 				new Book(104, "REACT", "ASHOK", 500.0, "Frontend"), new Book(105, "HTML", "RAGHU", 600.0, "Frontend")));
 
-		//repo.findByauthor("ASHOK")
+		// repo.findByAuthor("ASHOK")
+		// repo.findByauthorIs("RAGHU")
 		repo.findByBookType("Backend")
 		.forEach(System.out::println);
 
