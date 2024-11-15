@@ -16,13 +16,10 @@ public interface BookRepository extends JpaRepository<Book, Integer> {
 //	List<Book> findByauthor(String author);
 //	List<Book> findByauthorIs(String author);
 //	List<Book> findByAuthorEquals(String author);
-	
-	
-	
-	
-	//SQL: SELECT * FROM BOOK WHERE BOOKTYPE=?
-		//invalid: findBybtype, findbybooktype, findbookbytype
-		//valid : findBybookType, findByBookType
-		List<Book> findByBookType(String bookType);
+
+	// SQL: SELECT * FROM BOOK WHERE BOOKTYPE=?
+	// invalid: findBybtype, findbybooktype, findbookbytype
+	// valid : findBybookType, findByBookType
+	// List<Book> findByBookType(String bookType);
 
 }
