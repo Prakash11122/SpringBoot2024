@@ -1,5 +1,7 @@
 package com.it.pradhan.runner;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -38,6 +40,11 @@ public class TestDataInsertRunner implements CommandLineRunner {
 		erepo.save(e2);
 		erepo.save(e3);
 		erepo.save(e4);
+		
+		List<Object[]> list1 = erepo.getEnameDeptNames();
+		for(Object[] ob:list1) {
+			System.out.println(ob[0]+" --IS WORKING ON DEPT-- "+ob[1]);
+		}
 		
 
 	}
