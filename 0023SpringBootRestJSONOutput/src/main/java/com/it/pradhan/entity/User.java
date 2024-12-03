@@ -14,7 +14,7 @@ public class User {
 	public User(int i, String string, String string2, Set<String> of) {
 		
 	}
-
+    
 	private Integer userId;
 	
 	private String userName;
