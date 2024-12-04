@@ -18,7 +18,7 @@ import com.it.pradhan.entity.User;
 public class UserRestController {
 	@GetMapping("/getone")
 	public ResponseEntity<User> getOneObj(){
-		User ob = new  User(10, "rakesh", "officer");
+		User ob = new  User(10, "rakesh", "officer","");
 		ResponseEntity<User> responce = new ResponseEntity<User>(ob,HttpStatus.OK);
 		return responce;
 	}

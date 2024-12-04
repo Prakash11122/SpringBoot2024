@@ -21,4 +21,6 @@ public class User {
 	
 	private String userRole;
 	
+	private String address;
+	
 }

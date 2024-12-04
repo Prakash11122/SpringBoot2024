@@ -1,7 +1,5 @@
 package com.it.pradhan;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,8 +8,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Role {
-	@JsonIgnore
-
+	
+	//@JsonIgnore
 	private Integer roleId;
 	
 	private String roleCode;
