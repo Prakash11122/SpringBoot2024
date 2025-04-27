@@ -19,33 +19,29 @@ public class ProductRestController {
 		ResponseEntity<String> reponse = new ResponseEntity<String>("From get product methos", HttpStatus.OK);
 		return reponse;
 	}
-	
+
 	@PostMapping("/create")
-	public ResponseEntity<String>createProduct(){
+	public ResponseEntity<String> createProduct() {
 		ResponseEntity<String> response = new ResponseEntity<String>("From post method", HttpStatus.OK);
 		return response;
 	}
-	
-	
+
 	@PutMapping("/update")
-	public ResponseEntity<String>updateProduct(){
+	public ResponseEntity<String> updateProduct() {
 		ResponseEntity<String> response = new ResponseEntity<String>("From put method", HttpStatus.OK);
 		return response;
 	}
 
-	
 	@DeleteMapping("/delete")
-	public ResponseEntity<String>deleteProduct(){
+	public ResponseEntity<String> deleteProduct() {
 		ResponseEntity<String> response = new ResponseEntity<String>("From delete method", HttpStatus.OK);
 		return response;
 	}
 
-	
 	@PatchMapping("/patch")
-	public ResponseEntity<String>modifyProductCost(){
+	public ResponseEntity<String> modifyProductCost() {
 		ResponseEntity<String> response = new ResponseEntity<String>("From patch method", HttpStatus.OK);
 		return response;
 	}
-
 
 }
